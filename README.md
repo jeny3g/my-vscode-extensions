@@ -1,3 +1,5 @@
+### Copie esses comandos e cole no seu vscode para obter minhas extensões
+
 ```
 code --install-extension alphabotsec.vscode-eclipse-keybindings
 code --install-extension dbaeumer.vscode-eslint      
