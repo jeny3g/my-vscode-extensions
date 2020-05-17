@@ -68,7 +68,7 @@ code --install-extension waderyan.gitblame
 
 Well, that is it. You have now the best extensions ever in your vscode
 
-## ✍️ Authors <a name = "authors" href="https://github.com/JeanOliveiraMiranda/">Jean Oliveira Miranda</a>
+## ✍️ Authors <a name = "authors" href="https://github.com/SenhorBiscoito">Jean Oliveira Miranda</a>
 
 Inspired by [StackOverFlow](https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list) who made this project possible.
 
