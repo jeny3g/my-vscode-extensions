@@ -27,8 +27,8 @@ Now it is easy to install my extensions in your computer just typing one command
 
 First things first. You need to run this command to getting started
 
-
 ```
+code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension DotJoshJohnson.xml
 code --install-extension eamodio.gitlens
@@ -64,6 +64,7 @@ code --install-extension vscjava.vscode-spring-boot-dashboard
 code --install-extension vscjava.vscode-spring-initializr
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension waderyan.gitblame
+code --install-extension xabikos.JavaScriptSnippets
 ```
 
 Well, that is it. You have now the best extensions ever in your vscode
@@ -71,4 +72,3 @@ Well, that is it. You have now the best extensions ever in your vscode
 ## ✍️ Authors <a name = "authors" href="https://github.com/SenhorBiscoito">Jean Oliveira Miranda</a>
 
 Inspired by [StackOverFlow](https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list) who made this project possible.
-
