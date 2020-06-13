@@ -28,6 +28,8 @@ Now it is easy to install my extensions in your computer just typing one command
 First things first. You need to run this command to getting started
 
 ```
+code --install-extension AkashAhire.skynet-mongoose
+code --install-extension Angular.ng-template
 code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension DotJoshJohnson.xml
@@ -35,6 +37,7 @@ code --install-extension eamodio.gitlens
 code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.code-runner
 code --install-extension GabrielBB.vscode-lombok
+code --install-extension maxerbox.vscode-discord
 code --install-extension ms-mssql.mssql
 code --install-extension ms-vscode-remote.remote-wsl
 code --install-extension msjsdiag.debugger-for-chrome
@@ -64,6 +67,7 @@ code --install-extension vscjava.vscode-spring-boot-dashboard
 code --install-extension vscjava.vscode-spring-initializr
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension waderyan.gitblame
+code --install-extension willjleong.nuxt-typescript-snippets
 code --install-extension xabikos.JavaScriptSnippets
 ```
 
