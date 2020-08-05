@@ -64,6 +64,7 @@ code --install-extension salesforce.salesforcedx-vscode-visualforce
 code --install-extension sdras.night-owl
 code --install-extension sdras.vue-vscode-snippets
 code --install-extension shengchen.vscode-checkstyle
+code --install-extension usernamehw.errorlens
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension vscjava.vscode-java-debug
 code --install-extension vscjava.vscode-java-dependency
