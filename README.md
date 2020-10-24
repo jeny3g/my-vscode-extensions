@@ -89,6 +89,10 @@ code --install-extension Zignd.html-css-class-completion
 
 Well, that is it. You have now the best extensions ever in your vscode
 
+Make sure you installed <a name = "authors" href="https://github.com/tonsky/FiraCode/wiki/Installing">Fira Code</a> in your machine
+
+Rocketseat [Visual Studio Code](https://www.notion.so/Visual-Studio-Code-e0d3c48eebdd4df586c4ba8c12cf5a7a)
+
 ## ✍️ Authors <a name = "authors" href="https://github.com/SenhorBiscoito">Jean Oliveira Miranda</a>
 
 Inspired by [StackOverFlow](https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list) who made this project possible.
