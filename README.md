@@ -29,8 +29,6 @@ First things first. You need to run this command to getting started
 
 ```
 code --install-extension aaron-bond.better-comments
-code --install-extension aeschli.vscode-css-formatter
-code --install-extension AkashAhire.skynet-mongoose
 code --install-extension alexiv.vscode-angular2-files
 code --install-extension Angular.ng-template
 code --install-extension burkeholland.simple-react-snippets
@@ -42,33 +40,19 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.code-runner
 code --install-extension GabrielBB.vscode-lombok
 code --install-extension maxerbox.vscode-discord
-code --install-extension ms-dotnettools.csharp
-code --install-extension ms-mssql.mssql
 code --install-extension ms-python.python
 code --install-extension ms-vscode-remote.remote-wsl
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension msjsdiag.vscode-react-native
-code --install-extension naco-siren.gradle-language
 code --install-extension octref.vetur
 code --install-extension Pivotal.vscode-manifest-yaml
 code --install-extension Pivotal.vscode-spring-boot
 code --install-extension PKief.material-icon-theme
 code --install-extension redhat.java
 code --install-extension redhat.vscode-xml
-code --install-extension richardwillis.vscode-gradle
 code --install-extension ritwickdey.LiveServer
 code --install-extension rocketseat.theme-omni
-code --install-extension salesforce.salesforce-vscode-slds
-code --install-extension salesforce.salesforcedx-vscode
-code --install-extension salesforce.salesforcedx-vscode-apex
-code --install-extension salesforce.salesforcedx-vscode-apex-debugger
-code --install-extension salesforce.salesforcedx-vscode-apex-replay-debugger
-code --install-extension salesforce.salesforcedx-vscode-core
-code --install-extension salesforce.salesforcedx-vscode-lightning
-code --install-extension salesforce.salesforcedx-vscode-lwc
-code --install-extension salesforce.salesforcedx-vscode-visualforce
-code --install-extension sdras.night-owl
 code --install-extension sdras.vue-vscode-snippets
 code --install-extension shengchen.vscode-checkstyle
 code --install-extension TabNine.tabnine-vscode
