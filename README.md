@@ -40,24 +40,30 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.code-runner
 code --install-extension GabrielBB.vscode-lombok
 code --install-extension maxerbox.vscode-discord
-code --install-extension ms-python.python
 code --install-extension ms-vscode-remote.remote-wsl
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension msjsdiag.vscode-react-native
-code --install-extension octref.vetur
 code --install-extension Pivotal.vscode-manifest-yaml
 code --install-extension Pivotal.vscode-spring-boot
 code --install-extension PKief.material-icon-theme
-code --install-extension redhat.java
 code --install-extension redhat.vscode-xml
 code --install-extension ritwickdey.LiveServer
 code --install-extension rocketseat.theme-omni
-code --install-extension sdras.vue-vscode-snippets
 code --install-extension shengchen.vscode-checkstyle
 code --install-extension TabNine.tabnine-vscode
 code --install-extension usernamehw.errorlens
 code --install-extension VisualStudioExptTeam.vscodeintellicode
+code --install-extension waderyan.gitblame
+code --install-extension willjleong.nuxt-typescript-snippets
+code --install-extension xabikos.JavaScriptSnippets
+code --install-extension Zignd.html-css-class-completion
+
+code --install-extension octref.vetur
+code --install-extension sdras.vue-vscode-snippets
+
+code --install-extension ms-python.python
+code --install-extension redhat.java
 code --install-extension vscjava.vscode-java-debug
 code --install-extension vscjava.vscode-java-dependency
 code --install-extension vscjava.vscode-java-pack
@@ -65,10 +71,6 @@ code --install-extension vscjava.vscode-java-test
 code --install-extension vscjava.vscode-maven
 code --install-extension vscjava.vscode-spring-boot-dashboard
 code --install-extension vscjava.vscode-spring-initializr
-code --install-extension waderyan.gitblame
-code --install-extension willjleong.nuxt-typescript-snippets
-code --install-extension xabikos.JavaScriptSnippets
-code --install-extension Zignd.html-css-class-completion
 ```
 
 Well, that is it. You have now the best extensions ever in your vscode
