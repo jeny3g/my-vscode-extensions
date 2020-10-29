@@ -79,6 +79,8 @@ Make sure you installed <a name = "authors" href="https://github.com/tonsky/Fira
 
 Rocketseat [Visual Studio Code](https://www.notion.so/Visual-Studio-Code-e0d3c48eebdd4df586c4ba8c12cf5a7a)
 
+[Insomnia Dracula](https://draculatheme.com/insomnia)
+
 [Terminal com Oh My Zsh, Spaceship, Dracula e mais](https://blog.rocketseat.com.br/terminal-com-oh-my-zsh-spaceship-dracula-e-mais/)
 
 ## ✍️ Authors <a name = "authors" href="https://github.com/SenhorBiscoito">Jean Oliveira Miranda</a>
