@@ -39,6 +39,7 @@ code --install-extension eamodio.gitlens
 code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.code-runner
 code --install-extension GabrielBB.vscode-lombok
+code --install-extension wix.vscode-import-cost
 code --install-extension maxerbox.vscode-discord
 code --install-extension ms-vscode-remote.remote-wsl
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
