@@ -1,20 +1,83 @@
 {
-    "tabnine.experimentalAutoImports": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Omni",
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 16,
-    "explorer.compactFolders": false,
-    "editor.renderLineHighlight": "gutter",
-    "workbench.editor.labelFormat": "short",
-    "extensions.ignoreRecommendations": true,
-    "javascript.updateImportsOnFileMove.enabled": "never",
-    "typescript.updateImportsOnFileMove.enabled": "never",
-    "breadcrumbs.enabled": true,
-    "editor.parameterHints.enabled": false,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "editor.rulers": [80, 120],
-    "editor.semanticHighlighting.enabled": false
+  // Autocompleter de qualquer linguagem, é muito bom
+  "tabnine.experimentalAutoImports": true,
+
+  // Aumenta a font do terminal
+  "terminal.integrated.fontSize": 14,
+
+  // Define o tema dos ícones na sidebar
+  "workbench.colorTheme": "Omni",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+
+  // Configura o tamanho e família das fontes
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.lineHeight": 24,
+
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+
+  // Caso você tenha um arquivo X sendo importado em um arquivo Y, se o arquivo X for alterado de pasta, com a opção never o VSCode não tentará arrumar a importação, de forma automática.
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  // Mostra a "árvore de pastas".
+  "breadcrumbs.enabled": true,
+
+  // Desabilita as dicas de documentação.
+  "editor.parameterHints.enabled": false,
+
+  // Caso você venha a mudar uma pasta de lugar ou deletar, será feito de forma automática sem confirmação.
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  // Define as regras de caracteres máximo por linha.
+  "editor.rulers": [80, 120],
+
+  // Evita que o editor adicione cores em variáveis de acordo com seu tipo, permanecendo apenas as cores padrões do tema.
+  "editor.semanticHighlighting.enabled": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  // Identação do tipo de arquivo
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".styleintrc": "json",
+    ".prettierrc": "json"
+  },
+
+  // Aplica um sinal visual na esqueda da lina selecionada
+
+  "window.zoomLevel": 0,
+
+  // Emmet para
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+  //Terminal integrado padrão do vscode
+  "terminal.integrated.shell.linux": "/bin/zsh"
 }
