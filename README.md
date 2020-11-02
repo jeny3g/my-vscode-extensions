@@ -36,6 +36,7 @@ code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension DotJoshJohnson.xml
 code --install-extension eamodio.gitlens
+code --install-extension EditorConfig.EditorConfig
 code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.code-runner
 code --install-extension GabrielBB.vscode-lombok
