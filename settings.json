@@ -79,5 +79,13 @@
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
 
   //Terminal integrado padrão do vscode
-  "terminal.integrated.shell.linux": "/bin/zsh"
+  "terminal.integrated.shell.linux": "/bin/zsh",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Para o VSCode formatar o código sempre que salvarmos algum arquivo
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
