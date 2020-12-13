@@ -79,4 +79,9 @@
   },
   "git.autofetch": true,
   "discord.enabled": true,
+  
+ // Com a extensão colorize adiciona cores em arquivos .ts 
+   "colorize.languages": [
+    "typescript",
+  ]
 }
