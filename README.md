@@ -61,6 +61,7 @@ code --install-extension willjleong.nuxt-typescript-snippets
 code --install-extension xabikos.JavaScriptSnippets
 code --install-extension Zignd.html-css-class-completion
 code --install-extension jpoissonnier.vscode-styled-components
+code --install-extension kamikillerto.vscode-colorize
 
 
 code --install-extension octref.vetur
