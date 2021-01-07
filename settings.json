@@ -81,7 +81,9 @@
   "discord.enabled": true,
   
  // Com a extensão colorize adiciona cores em arquivos .ts 
-   "colorize.languages": [
+  "colorize.languages": [
     "typescript",
+    "html",
+    "css"
   ]
 }
