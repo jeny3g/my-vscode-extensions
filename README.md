@@ -63,6 +63,7 @@ code --install-extension Zignd.html-css-class-completion
 code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension kamikillerto.vscode-colorize
 code --install-extension Orta.vscode-jest
+code --install-extension christian-kohler.path-intellisense
 
 
 code --install-extension octref.vetur
