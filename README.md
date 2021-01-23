@@ -64,6 +64,7 @@ code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension kamikillerto.vscode-colorize
 code --install-extension Orta.vscode-jest
 code --install-extension christian-kohler.path-intellisense
+code --install-extension dkundel.vscode-npm-source
 
 
 code --install-extension octref.vetur
