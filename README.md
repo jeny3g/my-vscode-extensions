@@ -65,7 +65,7 @@ code --install-extension kamikillerto.vscode-colorize
 code --install-extension Orta.vscode-jest
 code --install-extension christian-kohler.path-intellisense
 code --install-extension dkundel.vscode-npm-source
-
+code --install-extension mikestead.dotenv
 
 code --install-extension octref.vetur
 code --install-extension sdras.vue-vscode-snippets
