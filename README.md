@@ -7,7 +7,12 @@
 
 <div align="center">
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/SenhorBiscoito/github-explorer">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/SenhorBiscoito/github-explorer">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/SenhorBiscoito/github-explorer">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/SenhorBiscoito/github-explorer">
+</p>
 
 </div>
 
