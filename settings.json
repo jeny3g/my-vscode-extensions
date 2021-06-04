@@ -95,7 +95,8 @@
       "args": [],
     },
   },
-  "terminal.integrated.defaultProfile.windows": "Zsh",  // Para o VSCode formatar o código sempre que salvarmos algum arquivo
+  "terminal.integrated.defaultProfile.windows": "Zsh",  
+  // Para o VSCode formatar o código sempre que salvarmos algum arquivo
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
