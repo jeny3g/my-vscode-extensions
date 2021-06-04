@@ -72,8 +72,30 @@
     "javascript": "javascriptreact"
   },
   //Terminal integrado padrão do vscode
-  "terminal.integrated.shell.linux": "/bin/zsh",
-  // Para o VSCode formatar o código sempre que salvarmos algum arquivo
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Zsh": {
+      "path": [
+        "${env:windir}\\System32\\bash.exe"
+      ],
+      "args": [],
+    },
+  },
+  "terminal.integrated.defaultProfile.windows": "Zsh",  // Para o VSCode formatar o código sempre que salvarmos algum arquivo
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
