@@ -73,6 +73,8 @@ code --install-extension dkundel.vscode-npm-source
 code --install-extension mikestead.dotenv
 code --install-extension WakaTime.vscode-wakatime    
 code --install-extension Zignd.html-css-class-completion 
+code --install-extension christian-kohler.path-intellisense
+
 
 code --install-extension octref.vetur
 code --install-extension sdras.vue-vscode-snippets
