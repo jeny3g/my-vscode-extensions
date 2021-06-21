@@ -1,76 +1,4 @@
 {
-  // Autocompleter de qualquer linguagem, é muito bom
-  "tabnine.experimentalAutoImports": true,
-  // Aumenta a font do terminal
-  "terminal.integrated.fontSize": 14,
-  // Define o tema dos ícones na sidebar
-  "workbench.colorTheme": "Omni",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "newUntitledFile",
-  // Configura o tamanho e família das fontes
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 16,
-  "editor.tabSize": 2,
-  "editor.lineHeight": 24,
-  "explorer.compactFolders": false,
-  "editor.renderLineHighlight": "gutter",
-  "workbench.editor.labelFormat": "short",
-  "extensions.ignoreRecommendations": true,
-  // Caso você tenha um arquivo X sendo importado em um arquivo Y, se o arquivo X for alterado de pasta, com a opção never o VSCode não tentará arrumar a importação, de forma automática.
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  // Mostra a "árvore de pastas".
-  "breadcrumbs.enabled": true,
-  // Desabilita as dicas de documentação.
-  "editor.parameterHints.enabled": false,
-  // Caso você venha a mudar uma pasta de lugar ou deletar, será feito de forma automática sem confirmação.
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  // Define as regras de caracteres máximo por linha.
-  "editor.rulers": [
-    80,
-    120
-  ],
-  // Evita que o editor adicione cores em variáveis de acordo com seu tipo, permanecendo apenas as cores padrões do tema.
-  "editor.semanticHighlighting.enabled": false,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  // Identação do tipo de arquivo
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    }
-  },
-  "files.associations": {
-    ".sequelizerc": "javascript",
-    ".styleintrc": "json",
-    ".prettierrc": "json"
-  },
-  // Aplica um sinal visual na esqueda da lina selecionada
-  "window.zoomLevel": 0,
-  // Emmet para
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
   //Terminal integrado padrão do vscode
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
@@ -95,25 +23,129 @@
       "args": [],
     },
   },
-  "terminal.integrated.defaultProfile.windows": "Zsh",  
+  "terminal.integrated.defaultProfile.windows": "Zsh",
+  // Autocompleter de qualquer linguagem, é muito bom
+  "t": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+  // Caso você tenha um arquivo X sendo importado em um arquivo Y, se o arquivo X for alterado de pasta, com a opção never o VSCode não tentará arrumar a importação, de forma automática.
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  // Mostra a "árvore de pastas".
+  "breadcrumbs.enabled": true,
+  // Desabilita as dicas de documentação.
+  "editor.parameterHints.enabled": false,
+  // Caso você venha a mudar uma pasta de lugar ou deletar, será feito de forma automática sem confirmação.
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.": "first",
+  "vsintellicode.modify.editor.": "automaticallyOverrodeDefaultValue",
+  // Identação do tipo de arquivo
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".styleintrc": "json",
+    ".prettierrc": "json",
+    "*.tsx": "typescriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // "terminal.integrated.shell.linux": "/bin/zsh",
   // Para o VSCode formatar o código sempre que salvarmos algum arquivo
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
   "git.autofetch": true,
   "discord.enabled": true,
-  
- // Com a extensão colorize adiciona cores em arquivos .ts 
   "colorize.languages": [
     "typescript",
     "html",
     "css"
-  ]
-  
-  // Configurar icones das pastas
-    "material-icon-theme.folders.associations": {
+  ],
+  "workbench.colorTheme": "Omni",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "editor.linkedEditing": true,
+  "cSpell.language": "en,pt",
+  "sync.gist": "824e479c814a2a488857531c0032e91f",
+  "sync.autoDownload": true,
+  "sync.autoUpload": true,
+  "sync.quietSync": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "redhat.telemetry.enabled": true,
+  // Configurações NLW
+  "terminal.integrated.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 26,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    // "**/node_modules": true
+  },
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    "*.tsx": "typescriptreact"
+  },
+  "typescript.tsserver.log": "verbose",
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.associations": {
     "infra": "app",
     "entities": "class",
+    "domain": "class",
     "schemas": "class",
     "typeorm": "database",
     "repositories": "mappings",
@@ -122,10 +154,55 @@
     "modules": "components",
     "implementations": "core",
     "dtos": "typescript",
-    "fakes": "mock"
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes"
   },
   "material-icon-theme.files.associations": {
     "ormconfig.json": "database",
-    "tsconfig.json": "tune"
-  }
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack"
+  },
+  "window.menuBarVisibility": "toggle",
+  "tabnine.experimentalAutoImports": true,
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+  "editor.suggestSelection": "first",
+  "cSpell.userWords": [
+    "chakra",
+    "middlewares",
+    "prefetch",
+    "rocketseat"
+  ],
+  "workbench.productIconTheme": "fluent-icons",
+  "terminal.integrated.showExitAlert": false,
+  "splitHTMLAttributes.closingBracketOnNewLine": true,
+  "window.zoomLevel": 1
 }
