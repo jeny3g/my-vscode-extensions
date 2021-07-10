@@ -44,17 +44,13 @@ code --install-extension eamodio.gitlens
 code --install-extension EditorConfig.EditorConfig
 code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.code-runner
-code --install-extension GabrielBB.vscode-lombok
 code --install-extension wix.vscode-import-cost
 code --install-extension maxerbox.vscode-discord
 code --install-extension ms-vscode-remote.remote-wsl
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension msjsdiag.vscode-react-native
-code --install-extension Pivotal.vscode-manifest-yaml
-code --install-extension Pivotal.vscode-spring-boot
 code --install-extension PKief.material-icon-theme
-code --install-extension redhat.vscode-xml
 code --install-extension ritwickdey.LiveServer
 code --install-extension rocketseat.theme-omni
 code --install-extension shengchen.vscode-checkstyle
@@ -75,11 +71,14 @@ code --install-extension WakaTime.vscode-wakatime
 code --install-extension Zignd.html-css-class-completion 
 code --install-extension christian-kohler.path-intellisense
 
-
 code --install-extension octref.vetur
 code --install-extension sdras.vue-vscode-snippets
 
+code --install-extension Pivotal.vscode-manifest-yaml
+code --install-extension redhat.vscode-xml
+code --install-extension Pivotal.vscode-spring-boot
 code --install-extension ms-python.python
+code --install-extension GabrielBB.vscode-lombok
 code --install-extension redhat.java
 code --install-extension vscjava.vscode-java-debug
 code --install-extension vscjava.vscode-java-dependency
