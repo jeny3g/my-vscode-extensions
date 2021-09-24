@@ -37,3 +37,6 @@
 	amend = commit --amend 
 	last-commit = log --name-status HEAD^..HEAD 
 	prune-origin = "!git fetch -p && for branch in `git branch -vv | grep ': gone]' | awk '{print $1}'`; do git branch -D $branch; done"
+	s = !git status -s
+	c = !git add --all && git commit -m
+	l = !git log --pretty=format:'%C(blue)%h %C(red)%d%C(white)%s - %C(cyan)%cn, %C(green)%cr'
