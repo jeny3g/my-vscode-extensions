@@ -44,7 +44,6 @@
   // Caso você venha a mudar uma pasta de lugar ou deletar, será feito de forma automática sem confirmação.
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  "editor.semanticHighlighting.enabled": false,
   "editor.": "first",
   "vsintellicode.modify.editor.": "automaticallyOverrodeDefaultValue",
   // Identação do tipo de arquivo
@@ -69,12 +68,6 @@
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "files.associations": {
-    ".sequelizerc": "javascript",
-    ".styleintrc": "json",
-    ".prettierrc": "json",
-    "*.tsx": "typescriptreact"
-  },
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
@@ -94,12 +87,6 @@
     "css"
   ],
   "workbench.colorTheme": "Omni",
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
   "editor.linkedEditing": true,
   "cSpell.language": "en,pt",
   "sync.gist": "824e479c814a2a488857531c0032e91f",
@@ -118,14 +105,10 @@
   "editor.tabSize": 2,
   "editor.fontSize": 16,
   "editor.lineHeight": 26,
-  "editor.semanticHighlighting.enabled": false,
   "editor.rulers": [
     80,
     120
   ],
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -133,9 +116,14 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     // "**/node_modules": true
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
   },
   "files.associations": {
     ".sequelizerc": "javascript",
+    ".styleintrc": "json",
     ".stylelintrc": "json",
     ".prettierrc": "json",
     "*.tsx": "typescriptreact"
@@ -204,5 +192,6 @@
   "workbench.productIconTheme": "fluent-icons",
   "terminal.integrated.showExitAlert": false,
   "splitHTMLAttributes.closingBracketOnNewLine": true,
-  "window.zoomLevel": 1
+  "window.zoomLevel": 2,
+  "editor.inlineSuggest.enabled": true
 }
