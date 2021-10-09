@@ -3,6 +3,7 @@
 	email = mirandajean2009@gmail.com
 [core]
 	editor = \"c:\\Program Files\\Notepad++\\notepad++.exe\"
+	autocrlf = true
 [alias] 
 	alias = "!git config -l | grep alias | cut -c 7-" 
 	branch-name = "!git rev-parse --abbrev-ref HEAD" 
