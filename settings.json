@@ -1,31 +1,4 @@
 {
-  //Terminal integrado padrão do vscode
-  "terminal.integrated.profiles.windows": {
-    "PowerShell": {
-      "source": "PowerShell",
-      "icon": "terminal-powershell"
-    },
-    "Command Prompt": {
-      "path": [
-        "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe"
-      ],
-      "args": [],
-      "icon": "terminal-cmd"
-    },
-    "Git Bash": {
-      "source": "Git Bash"
-    },
-    "Zsh": {
-      "path": [
-        "${env:windir}\\System32\\bash.exe"
-      ],
-      "args": [],
-    },
-  },
-  "terminal.integrated.defaultProfile.windows": "Zsh",
-  // Autocompleter de qualquer linguagem, é muito bom
-  "t": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "editor.fontFamily": "Fira Code",
@@ -191,7 +164,7 @@
   ],
   "workbench.productIconTheme": "fluent-icons",
   "terminal.integrated.showExitAlert": false,
-  "splitHTMLAttributes.closingBracketOnNewLine": true,
-  "window.zoomLevel": 2,
-  "editor.inlineSuggest.enabled": true
+"splitHTMLAttributes.closingBracketOnNewLine": true,
+  "editor.inlineSuggest.enabled": true,
+  "python.defaultInterpreterPath": "C:\\Users\\miranda\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
 }
