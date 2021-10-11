@@ -89,6 +89,13 @@ code --install-extension vscjava.vscode-spring-boot-dashboard
 code --install-extension vscjava.vscode-spring-initializr
 ```
 
+## 🏁 Git config <a name = "git_config"></a>
+
+```
+git config user.name "Senhor Biscoito"
+git config user.email "mirandajean2009@gmail.com"
+```
+
 Well, that is it. You have now the best extensions ever in your vscode
 
 Make sure you installed <a name = "authors" href="https://github.com/tonsky/FiraCode/wiki/Installing">Fira Code</a> in your machine
