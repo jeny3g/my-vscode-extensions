@@ -19,7 +19,12 @@
   "discord.lowerDetailsNoWorkspaceFound": "{file_size}",
   // Terminal Linux
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.shell.linux": "/bin/bash",
+  "terminal.integrated.profiles.linux": {
+    "zsh (login)": {
+      "path": "zsh",
+      "args": ["-l"]
+    }
+  },
   // Git lens
   "gitlens.defaultDateShortFormat": null,
   "gitlens.defaultTimeFormat": null,
@@ -35,42 +40,42 @@
   // Material Theme
   "material-icon-theme.activeIconPack": "nest",
   "material-icon-theme.folders.associations": {
-      "infra": "app",
-      "entities": "class",
-      "domain": "class",
-      "schemas": "class",
-      "typeorm": "database",
-      "repositories": "mappings",
-      "http": "container",
-      "migrations": "tools",
-      "modules": "components",
-      "implementations": "core",
-      "dtos": "typescript",
-      "fakes": "mock",
-      "websockets": "pipe",
-      "protos": "pipe",
-      "grpc": "pipe",
-      "providers": "include",
-      "subscribers": "messages",
-      "useCases": "controller",
-      "kafka": "scripts",
-      "mappers": "meta",
-      "_shared": "shared",
-      "eslint-config": "tools",
-      "kube": "kubernetes",
-      "adapters" : "contract",
-      "main" : "lib",
-      "use-cases" : "functions",
-      "factories" : "class"
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes",
+    "adapters": "contract",
+    "main": "lib",
+    "use-cases": "functions",
+    "factories": "class"
   },
   "material-icon-theme.languages.associations": {
-      "dotenv": "tune"
+    "dotenv": "tune"
   },
   "material-icon-theme.files.associations": {
-      "ormconfig.json": "database",
-      "tsconfig.json": "tune",
-      "*.proto": "3d",
-      "*.webpack.js": "webpack"
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack"
   },
   // Formate
   "editor.formatOnSave": true,
@@ -87,13 +92,13 @@
   // Folders
   "explorer.compactFolders": false,
   "files.exclude": {
-      "**/.git": true,
-      "**/.svn": true,
-      "**/.hg": true,
-      "**/CVS": true,
-      "**/.DS_Store": true,
-      "**/node_modules": true,
-      "**/__pycache__": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/__pycache__": true
   },
   // Files
   "explorer.confirmDelete": false,
@@ -103,11 +108,11 @@
   "files.trimFinalNewlines": true,
   "files.insertFinalNewline": true,
   "files.associations": {
-      ".sequelizerc": "javascript",
-      ".stylelintrc": "json",
-      ".prettierrc": "json",
-      "*.tsx": "typescriptreact",
-      ".env.*": "dotenv"
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv"
   },
   // Javascript && Typescript
   "typescript.tsserver.log": "off",
@@ -116,10 +121,10 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "emmet.syntaxProfiles": {
-      "javascript": "jsx"
+    "javascript": "jsx"
   },
   "emmet.includeLanguages": {
-      "javascript": "javascriptreact"
+    "javascript": "javascriptreact"
   },
 
   // Editor
@@ -132,13 +137,13 @@
   "extensions.ignoreRecommendations": true,
   "breadcrumbs.enabled": true,
   "editor.parameterHints.enabled": false,
-  "editor.rulers": [
-      80,
-      120
-  ],
-"tabnine.experimentalAutoImports": true,
-"workbench.productIconTheme": "fluent-icons",
-  "[prisma]" : {
-    "editor.formatOnSave" : true
+  "editor.rulers": [80, 120],
+  "tabnine.experimentalAutoImports": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "[prisma]": {
+    "editor.formatOnSave": true
   },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
