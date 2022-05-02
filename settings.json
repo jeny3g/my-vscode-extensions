@@ -77,7 +77,7 @@
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
   // Theme
-  "workbench.colorTheme": "a Dark (Soft AurText)",
+  "workbench.colorTheme": "Aura Dark (Soft Text)",
   "glassit.alpha": 245,
   "window.zoomLevel": -1,
   "workbench.iconTheme": "material-icon-theme",
