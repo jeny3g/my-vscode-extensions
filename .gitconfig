@@ -50,7 +50,7 @@
 	hotfix = "!f() { [[ -z \"$GIT_PREFIX\" ]] || cd \"$GIT_PREFIX\" && if [ -z \"$1\" ]; then git commit -m \"hotfix: :ambulance: \" -e; elif [ \"$1\" == \"-s\" ]; then git commit -m \"hotfix(${2}): :ambulance: ${@:3}\"; else git commit -m \"hotfix: :ambulance: ${@}\"; fi }; f"
 	initial = "!f() { [[ -z \"$GIT_PREFIX\" ]] || cd \"$GIT_PREFIX\" && if [ -z \"$1\" ]; then git commit -m \"init: :tada: \" -e; elif [ \"$1\" == \"-s\" ]; then git commit -m \"init(${2}): :tada: ${@:3}\"; else git commit -m \"init: :tada: ${@}\"; fi }; f"
 	wip = "!f() { [[ -z \"$GIT_PREFIX\" ]] || cd \"$GIT_PREFIX\" && if [ -z \"$1\" ]; then git commit -m \"wip: :construction: \" -e; elif [ \"$1\" == \"-s\" ]; then git commit -m \"wip(${2}): :construction: ${@:3}\"; else git commit -m \"wip: :construction: ${@}\"; fi }; f"
-	struct = "!f() { [[ -z \"$GIT_PREFIX\" ]] || cd \"$GIT_PREFIX\" && if [ -z \"$1\" ]; then git commit -m \"struct: :art: \" -e; elif [ \"$1\" == \"-s\" ]; then git commit -m \"struct(${2}): :art: ${@:3}\"; else git commit -m \"struct: :art: ${@}\"; fi }; f"
+	struct = "!f() { [[ -z \"$GIT_PREFIX\" ]] || cd \"$GIT_PREFIX\" && if [ -z \"$1\" ]; then git commit -m \"struct: :construction_worker: \" -e; elif [ \"$1\" == \"-s\" ]; then git commit -m \"struct(${2}): :construction_worker: ${@:3}\"; else git commit -m \"struct: :construction_worker: ${@}\"; fi }; f"
 
 [init]
 	defaultBranch = main
