@@ -2,11 +2,12 @@
   // Security
   "security.workspace.trust.untrustedFiles": "newWindow",
   // Fonts
-  "editor.fontSize": 17,
+  "editor.fontSize": 16,
   "editor.tabSize": 2,
   "editor.lineHeight": 26,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "Fira Code",
+  "editor.renderLineHighlight": "gutter",
+  "editor.fontFamily": "JetBrains Mono",
   // Bookmarks
   "bookmarks.saveBookmarksInProject": true,
   // Discord Presence
@@ -18,7 +19,7 @@
   "discord.lowerDetailsIdling": "🕡 Hora do café",
   "discord.lowerDetailsNoWorkspaceFound": "{file_size}",
   // Terminal Linux
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 16,
   "terminal.integrated.profiles.linux": {
     "zsh (login)": {
       "path": "zsh",
@@ -28,9 +29,6 @@
   // Git lens
   "gitlens.defaultDateShortFormat": null,
   "gitlens.defaultTimeFormat": null,
-  "gitlens.codeLens.recentChange.enabled": false,
-  "gitlens.codeLens.authors.enabled": false,
-  "gitlens.codeLens.enabled": false,
   // Git
   "git.confirmSync": false,
   "git.autofetch": true,
@@ -49,6 +47,8 @@
     "http": "container",
     "migrations": "tools",
     "modules": "components",
+    "presentation": "template",
+    "protocols": "contract",
     "implementations": "core",
     "dtos": "typescript",
     "fakes": "mock",
@@ -66,7 +66,8 @@
     "adapters": "contract",
     "main": "lib",
     "use-cases": "functions",
-    "factories": "class"
+    "factories": "class",
+    "view-models": "views"
   },
   "material-icon-theme.languages.associations": {
     "dotenv": "tune"
@@ -75,16 +76,24 @@
     "ormconfig.json": "database",
     "tsconfig.json": "tune",
     "*.proto": "3d",
-    "*.webpack.js": "webpack"
+    "*.webpack.js": "webpack",
+    // material-icons for nestjs
+    "*.controller.ts": "nest-controller",
+    "*.module.ts": "nest-module",
+    "*.service.ts": "nest-service",
+    "*.middleware.ts": "nest-middleware",
+    "*.filter.ts": "nest-filter",
+    "*.pipe.ts": "nest-pipe",
+    "*.gateway.ts": "nest-gateway",
+    "*.decorator.ts": "nest-decorator",
+    "*.guard.ts": "nest-guard",
+    "*.interceptor.ts": "nest-interceptor",
+    "*.resolver.ts": "nest-resolver",
+    "*.input.ts": "nest-input"
   },
-  // Formate
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnType": true,
   // Theme
-  "workbench.colorTheme": "Aura Dark (Soft Text)",
+  "workbench.colorTheme": "Omni",
   "glassit.alpha": 245,
-  "window.zoomLevel": -1,
   "workbench.iconTheme": "material-icon-theme",
   "polacode.backgroundColor": "#6633CC",
   // Window
@@ -97,13 +106,13 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**/node_modules": true,
+    // "**/node_modules": true,
     "**/__pycache__": true
   },
   // Files
   "explorer.confirmDelete": false,
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 500,
+  // "files.autoSave": "afterDelay",
+  // "files.autoSaveDelay": 500,
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
   "files.insertFinalNewline": true,
@@ -126,8 +135,10 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-
   // Editor
+  // "editor.formatOnSave": true,
+  // "editor.formatOnPaste": true,
+  // "editor.formatOnType": true,
   "screencastMode.onlyKeyboardShortcuts": true,
   "workbench.startupEditor": "newUntitledFile",
   "editor.inlineSuggest.enabled": true,
@@ -141,9 +152,105 @@
   "tabnine.experimentalAutoImports": true,
   "workbench.productIconTheme": "fluent-icons",
   "[prisma]": {
-    "editor.formatOnSave": true
+    "editor.defaultFormatter": "Prisma.prisma"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  },
+  "[json]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  },
+  "[graphql]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "cSpell.userWords": [
+    "codepaths",
+    "dtos",
+    "tsbuildinfo",
+    "tsyringe",
+    "Onboarded",
+    "prefetch",
+    "rocketseat",
+    "upsert"
+  ],
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": true
+  },
+  "material-icon-theme.folders.color": "#f58222",
+  "gitlens.codeLens.scopes": ["document", "containers", "blocks"],
+  "editor.linkedEditing": true,
+  "editor.unicodeHighlight.allowedCharacters": {
+    "🔨": true
+  },
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.accessibilitySupport": "off",
+  // i18n
+  "i18n-codelens.codeLens": true,
+  "i18n-ally.sortKeys": true,
+  "i18n-ally.keepFulfilled": true,
+  "markdown.editor.drop.enabled": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "sonarlint.rules": {
+    "typescript:S3699": {
+      "level": "off"
+    }
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    // "source.organizeImports": true // Remove imports on
+  },
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+  "cSpell.language": "en,pt,pt_BR",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "terminal.integrated.showExitAlert": false,
+  "eslint.format.enable": true,
+  "createComponent.language": "ts",
 }
